@@ -151,7 +151,7 @@ async function submit(userNote = "") {
 // another window. Falls back to creating a fresh window (positioned bottom-right
 // at 1/3 size) when no reusable window is available. Returns the window, or null.
 async function openSearchWindow(query, targetWindowId) {
-  const url = `https://duckduckgo.com/?q=${encodeURIComponent(query)}`;
+  const url = `https://cn.bing.com/?q=${encodeURIComponent(query)}`;
 
   // Reuse path: navigate the existing DDG tab instead of opening a new window.
   if (searchWindow) {

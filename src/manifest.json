@@ -30,6 +30,16 @@
     },
     {
       "matches": [
+        "https://cn.bing.com/*"
+      ],
+      "js": [
+        "config.js",
+        "bing.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
         "https://duckduckgo.com/*"
       ],
       "js": [

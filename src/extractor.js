@@ -1,4 +1,5 @@
 (async function () {
+  if (location.hostname.includes("cn.bing.com")) return;
   if (location.hostname.includes("duckduckgo.com")) return;
   if (location.hostname === "127.0.0.1") return;
   if (location.hostname === "localhost") return;
